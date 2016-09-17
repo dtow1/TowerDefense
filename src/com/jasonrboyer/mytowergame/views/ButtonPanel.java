@@ -14,6 +14,14 @@ import javax.swing.JPanel;
 
 import com.jasonrboyer.mytowergame.models.Tower;
 
+/**
+ * This class is the button panel for control during gameplay. It was originally
+ * written in late 2015. I am commenting it in September of 2016. It is fairly
+ * straightforward since it is just creating buttons and adding them to a panel.
+ * 
+ * @author jasonboyer
+ *
+ */
 public class ButtonPanel extends JPanel {
     String  path       = "images" + File.separator;
     JButton addBasic   =

@@ -63,7 +63,6 @@ public class Base {
                 basePic = ImageIO.read(new File(path + "damagedBase.png"));
             }
             catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
         }

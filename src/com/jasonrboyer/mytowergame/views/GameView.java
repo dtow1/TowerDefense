@@ -1,7 +1,6 @@
 package com.jasonrboyer.mytowergame.views;
 
 import java.awt.Graphics;
-import java.awt.Graphics2D;
 import java.awt.Image;
 import java.io.File;
 import java.io.IOException;
@@ -181,12 +180,13 @@ public class GameView extends JPanel {
         /*
          * If there are any weapons fired that have a shot animation, draw them
          */
-        if (shots.size() > 0) {
-            Graphics2D g2 = (Graphics2D) g;
-            while (!shots.isEmpty()) {
-                BlastAnimation shotAnimation = shots.remove(0);
-            }
-        }
+        /*
+         * if (shots.size() > 0) { Graphics2D g2 = (Graphics2D) g; while
+         * (!shots.isEmpty()) { BlastAnimation shotAnimation = shots.remove(0);
+         * }
+         * 
+         * }
+         */
 
     }
 

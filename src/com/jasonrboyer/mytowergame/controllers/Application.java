@@ -52,7 +52,7 @@ public class Application extends JFrame {
         new BorderLayout();
         JPanel testPanel = new JPanel(new BorderLayout());
         JLabel testLabel = new JLabel(
-                "<html><h1 style='font-weight: bolder'>Welcome to the Game</h1></html>");
+                "<html><h1 style='font-weight: bolder'>Tower Defense</h1></html>");
         testLabel.setHorizontalAlignment(SwingConstants.CENTER);
         BufferedImage image;
         try {

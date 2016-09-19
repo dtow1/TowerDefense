@@ -41,9 +41,9 @@ public class Application extends JFrame {
 
     public Application() {
 
+        // Setup the display elements for the opening screen
         inMainPanel = false;
         setSize(SPLASH_SCREEN_X, SPLASH_SCREEN_Y);
-
         setTitle("Tower Defense Game");
         this.setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -61,7 +61,6 @@ public class Application extends JFrame {
             testPanel.add(towerImage, BorderLayout.CENTER);
         }
         catch (IOException e) {
-            // TODO Auto-generated catch block
             e.printStackTrace();
         }
 
